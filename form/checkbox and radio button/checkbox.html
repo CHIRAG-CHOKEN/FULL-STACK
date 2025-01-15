@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <!--CHECKBOX-->
+    <form action="/server">
+        <input type="checkbox" id="age" name="age"checked/>
+        <label for="age"> I am 18+</label>
+        <button>submit</button>
+      <div>
+    <br />
+        This is an radio button where we can only choose onw at a time :
+          <!--RADIO BUTTON-->     
+        <!--to get tick only one box we need to have same name-->                
+        <input type="radio" name="fruit" id="apple" value="apple"/>
+        <label for="apple">apple</label>
+        <input type="radio" name="fruit" id="mango" value="mango"/>
+        <label for="mango">mango</label>
+        <input type="radio" name="fruit" id="banana" value="banana"/>
+        <label for="banana">banana</label>
+      </div>
+    <br />
+        <!--using the above radio  button on this checkboxes-->
+        <div>
+          This is checkbox where we can choose more than on at a time :
+          <input type="checkbox" id="math" name="subjects" value="math"/>
+          <label for="math">math</label>
+          <input type="checkbox" id="science" name="subjects" value="sci"/>
+          <label for="science">science</label>
+          <input type="checkbox" id="english" name="subjects" value="eng"/>
+          <label for="english">english</label>
+        </div>
+    <br />
+    <!-- select- Input(dropdown)  element-->
+      <div>
+        Choose your profession
+        <select name="profession" id="profession">
+          <option value="stu">student</option>
+          <option value="dev">developer</option>
+        </select>
+      </div>
+
+      <!--RANGE-->
+      
+      <label for="vol">Select your volume level :</label>
+      <input
+       type="range"
+        id="vol" min="0" max="100" name="vol"
+      />
+    <br />
+      <!--TEXT AREA (EMPTY FEEDBACK SPACE) -->
+      <label for="feedback">please gaive your valuable feedback :</label>
+      <textarea id ="feedback" name="feedback" placeholder="write your feedback"></textarea>
+    <br />
+      <button>submit</button>
+    </form>
+</form>
+</body>
+</html>
