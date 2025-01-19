@@ -1,0 +1,77 @@
+/*UNIVERSAL SELECTOR*/
+*{
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: aqua;
+ }
+
+/*ELEMENT SELECTOR - SELECT THE ELEMENT OF SAME TYPE */
+ h1,h3{
+    color: #b92b27;
+ }
+
+
+/* ID SELECTOR- HERE WE MADE AN NEW ID AND THEN CALL IT*/
+ #login {
+    background-color:white;
+ }
+
+ #signup {
+    background-color:#b92b27;
+    color:white;
+ }
+
+
+/*CLASS SELECTOR - here we first made an class then call together */
+ .upvote{
+    background-color: green;
+    color: aliceblue;
+ }
+
+
+ /*descendant selector
+  METHOD-1    (this is for all the p present in the code                        */
+ p a{
+   color: purple;
+   background-color: yellow ;
+ }
+ 
+
+ /* METHOD 2     (here we define the paragraph which we want )                        */
+ .post a {
+   color: purple;
+   background-color: yellow ;
+
+ }
+
+  /*ADJACENT SIBLING COMBINATOR - jitne bhi div tags hai uske baad jo bhi h3 a rahe hai uske stylr karna hai*/
+ .upvote+button{
+   background-color:blue;
+   color:white;
+ }
+
+ /*CHILD DECENDANT RELATION (CHILD COMBINATOR)  -  only jo just next ayega only that one we have to style*/
+ div>input{
+   background-color:darksalmon;
+ }
+
+ /*ATTRIBUTE SELECTOR */
+ input[type="text"]{
+   color: red;
+ }
+
+ input[type="password"]{
+   color:green;
+ }
+
+ input[type]{
+   background-color:ghostwhite;
+ }
+
+ /*pseudo class */
+button:hover{
+   background-color: black;
+   color:white;
+}
+h3:hover{
+   text-decoration: black wavy;
+}
