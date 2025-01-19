@@ -24,6 +24,8 @@
     background-color:green;
 }
 
+
+/*INLINE-BLOCK */
 div{
     display: inline-block;   
 }
