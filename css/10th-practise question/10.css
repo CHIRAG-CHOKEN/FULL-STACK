@@ -23,3 +23,7 @@
 #green{
     background-color:green;
 }
+
+div{
+    display: inline-block;   
+}
