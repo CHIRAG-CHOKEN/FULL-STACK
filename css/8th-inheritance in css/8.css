@@ -1,3 +1,6 @@
 div{
     background-color:aqua;
-}
+} 
+
+/*this is also shifted the child element because they do not have there color 
+so parent color is shifted to it*/
