@@ -75,3 +75,13 @@ button:hover{
 h3:hover{
    text-decoration: black wavy;
 }
+
+
+.post:nth-of-type(1n){
+   background-color:blueviolet;
+}
+
+/*pseudo element*/
+h1::first-letter{
+   color:aquamarine;
+}
