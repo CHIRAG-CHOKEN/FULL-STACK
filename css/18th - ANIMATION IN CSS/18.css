@@ -10,6 +10,7 @@
     animation-delay: 0;
     animation-iteration-count: 10;
     animation-direction: normal;
+   /*animation: colorAnimate 3s ease-in 0 10 normal;   */
 
 }
 /*@keyframes chiragAnimation {
