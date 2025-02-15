@@ -236,6 +236,8 @@ a {
   align-items: center;
 }
 
+
+
 .album {
   width:25%;
   /* background-color: pink; */
@@ -296,4 +298,19 @@ a {
   background-color: #1bd760;
   border-radius: 50%;
   margin-top: -6px;
+  @keyframes moveRight {
+    from {
+      left: 0;
+    }
+    to {
+      left: 70%;
+    }
+  }
+}
+
+
+.album-icons {
+  display: flex;
+  height: 1.4rem;
+  margin-right: 10px;
 }
